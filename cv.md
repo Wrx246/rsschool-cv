@@ -1,4 +1,4 @@
-# MAKSIM KUZMIANOK
+# Maksim Kuzmianok
 ***
 #### Contacts
 **E-mail:** jst.wrx@gmail.com
@@ -36,3 +36,74 @@ function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
 }
 ```
 ***
+#### Development Experience
+
+___Films project:___ https://yourfilmtv.netlify.app
+Source code: https://github.com/Wrx246/Films
+Technology stack: 
+- React, React-router-dom, React-redux
+- Redux, Redux-thunk
+- Axios
+- Formik, yup 
+- HTML, CSS
+
+___Rick and Morty:___ https://petrickmorty.netlify.app
+Source code: https://github.com/Wrx246/Rick-Morty
+Technology stack: 
+- React, React-router-dom, React-redux
+- Redux, Redux-saga
+- Axios
+- Formik, yup 
+- HTML, CSS(Sass)
+
+___Todo list:___ https://yourtodohelper.netlify.app
+Source code: https://github.com/Wrx246/Todo
+Technology stack: 
+- React
+- HTML, CSS
+- LocalStorage (save todos for each user)
+
+___Animals nursery:___ https://savelifelanding.netlify.app
+Source code: https://github.com/Wrx246/Animals
+Technology stack: 
+- HTML, CSS
+
+___Weather app:___ https://yourcityweatherapp.netlify.app
+Source code: https://github.com/Wrx246/weather-react
+Technology stack: 
+- React
+- Axios
+- HTML, CSS(Sass)
+- Location (used browser API for geolocation)
+
+___News app:___ in progress
+Source code: https://github.com/Wrx246/News
+Technology stack: 
+- React, React-router-dom
+- TypeScript
+- Axios
+- HTML, CSS(styled-components)
+
+___Chat app:___ in progress
+Source code: https://github.com/Wrx246/chat
+Technology stack: 
+- Client:
+    - React, React-router-dom
+    - Formik, yup
+    - Axios
+    - HTML, CSS(Sass)
+    - socket.io-client
+- Server: 
+    - NodeJS
+    - socket.io
+    - multer
+    - mongoose
+    - express
+    - bcrypt, jsonwebtoken
+***
+#### Courses
+- Documentation: https://learn.javascript.ru 
+- Codewars: https://www.codewars.com/users/Waryxa
+***
+#### English level: ___A2 - B1___
+English classes: _March 2019 - November 2019_

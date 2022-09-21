@@ -253,3 +253,160 @@ header {
   right: 0;
   top: -106px;
 }
+
+
+/* PETS SECTION */
+
+.pets {
+  position: relative;
+}
+
+.pets-flower_left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.pets-flower_right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pets-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pets-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pets-list__grid {
+  max-width: 1158px;
+  height: 872px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(366px, 1fr));
+}
+
+.pets-card {
+  max-width: 366px;
+  max-height: 366px;
+  border: 1px solid #F9804B;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+@keyframes text {
+  0% {
+    max-height: 366px;
+  }
+
+  30% {
+    max-height: 370px;
+  }
+
+  50% {
+    max-height: 380px;
+  }
+
+  70% {
+    max-height: 400px;
+  }
+
+  90% {
+    max-height: 410px;
+  }
+}
+
+.pets-card:hover {
+  transform: scale(1.1);
+  max-height: 426px;
+  animation: text .5s linear;
+}
+
+.pets-card img {
+  max-width: 366px;
+  max-height: 366px;
+}
+
+.card {
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 12px 14px 16px;
+}
+
+.card-text h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+
+.card-text span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.pets-arrow {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+  cursor: pointer;
+}
+
+.pets-arrow:hover {
+  background: #4B9200;
+}
+
+.pets-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #FE9013;
+  border-radius: 25px;
+  border: none;
+  width: 298px;
+  height: 54px;
+  cursor: pointer;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.pets-button:hover {
+  background: #E47209;
+}
+
+.pets-button:active {
+  background: #4B9200;
+}
+
+.pets-button:disabled {
+  background: #767474;
+}

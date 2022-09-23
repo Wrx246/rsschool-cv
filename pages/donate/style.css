@@ -127,3 +127,232 @@ header {
     background-clip: text;
 }
 
+/* FOOTER SECTION */
+
+footer {
+    background: #111115;
+    width: 100%;
+    height: 443px;
+    padding: 41px 220px 50px 220px;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first_subscribe h5 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.first_subscribe input[type='email'] {
+    width: 228px;
+    height: 42px;
+    padding: 10px;
+    background-color: #111115;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+    border: .7px solid rgba(249, 128, 75, 1);
+    border-radius: 2px;
+}
+
+.first_subscribe input[type='email']:focus {
+    outline: none;
+    border: .7px solid #4B9200;
+}
+
+/* .first_subscribe input[type='email']:invalid {
+    color: #D31414;
+    border: .7px solid #D31414;
+  } */
+
+.first_subscribe button {
+    max-width: 129px;
+    max-height: 42px;
+    padding: 10px 39px;
+    background: #F1F3F2;
+    border: 1px solid #D31414;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #D31414;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.first_subscribe button {
+    max-width: 129px;
+    max-height: 42px;
+    padding: 10px 39px;
+    background: #F1F3F2;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.first_subscribe button:active {
+    max-width: 129px;
+    max-height: 42px;
+    padding: 10px 39px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.testimonials-button {
+    width: 298px;
+    max-height: 54px;
+    background: #FE9013;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 0px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-top: 31px;
+}
+
+.testimonials-button:hover {
+    background: #E47209;
+    transition: .3s ease;
+}
+
+.testimonials-button:active {
+    background: #4B9200;
+    transition: .3s ease;
+}
+
+.testimonials-button:disabled {
+    background: #767474;
+    cursor: default;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 44px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+}
+
+.footer-links li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.footer-links a:hover {
+    color: #4B9200;
+}
+
+.footer-links div {
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.footer-links div:hover {
+    background: #4B9200;
+}
+
+.footer-navigation {
+    max-width: 362px;
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.footer-navigation a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-navigation a:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footer-second_link {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    min-width: 220px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.footer-second_link:hover {
+    text-decoration: underline;
+    color: #4B9200;
+}
